@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="img/netflix_logo_icon_170919.png" type="image/x-icon"/>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+
+    <title>Netflix Philippines</title>
+  </head>
+ 
+  <body id="all" >
+    <!--burger menu------------------------------->
+    <div class="animate__animated animate__fadeIn" id="preloader" ></div>
+    <nav
+      class="animate__animated animate__fadeIn navbar fixed-top"
+      style="background-color: black"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="img/netflix_official_logo_icon_168085.png"
+            alt=""
+            width="100px"
+            height="30px"
+            style="margin-left: 15px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div
+            class="offcanvas-header"
+            style="background-color: rgb(19, 18, 18)"
+          >
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+              style="background-color: rgb(19, 18, 18)"
+            ></button>
+          </div>
+          <div class="offcanvas-body" style="background-color: rgb(19, 18, 18) " >
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  style="color: white"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#anime" class="nav-link" href="#" style="color: white">Anime</a>
+              </li>
+              <li class="nav-item">
+                <a href="#kdrama" class="nav-link" href="#" style="color: white">K-drama</a>
+              </li>
+              
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--burger menu------------------------------->
+
+    <!--spy x family vid-->
+
+    <div class="container" id="first-vid">
+      <video height="500px" width="100%" autoplay loop>
+        <source
+          src="vid/TVアニメ「ONE PIECE」1000話記念：ウィーアー！.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="vid/TVアニメ「ONE PIECE」1000話記念：ウィーアー！.mp4"
+          type="video/ogg"
+        />  
+      </video>
+      <img src="img/pxfuel.jpg" alt="" width="150px" height="80px" />
+    </div>
+    <!------------------------------------------------------------------------------->
+    <div class="slider_wrapper">
+      <p style="color: white">Top Anime and series</p>
+      <div class="splide" id="anime">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/Jujutsu kaisen.png" alt="" />
+              </div>
+            </div>
+
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/assassination classroom.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Attack on Titan the Final Season Poster.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/Black Clover.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/blue.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/chainsaw man.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/dr. stone.png" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/fairy tale.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Fire Force (Anime).jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/haikyu.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Horimiya -Piece- New Anime.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/hunter x hunter.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Komi Can't Communicate Official poster Netflix.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Kuroko no Basket_ Last Game.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/love is war.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/My hero academia.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/naruto.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/noragami.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/one piece.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/one punch man.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/saiki k.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--kdrama and series-->
+    <div class="slider_wrapper">
+      <p style="color: white">Top Kdrama Series</p>
+      <div class="splide" id="kdrama">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/alice in borderland.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/Alchemy Of Souls.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/all of us are dead.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Crash Landing on You.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Extraordinary Attorney Woo.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/fight for my way.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/Goblin.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/HAPPINESS ❤️.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Hometown Cha Cha Cha.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/hotel del luna.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/Itaewon Class.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/its okay not to be okay.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/OUR BELOVED SUMMER.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Partners for Justice 2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/Shool 2017.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/The Glory.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img
+                  class="thumbnail"
+                  src="img/Twenty Five Twenty One (2022).jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/uncanny counter.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/Vincenzo.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/Wwwsk.jpg" alt="" />
+              </div>
+            </div>
+            <div class="splide__slide">
+              <div class="img_box">
+                <img class="thumbnail" src="img/youth of may.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script>
+      var splide = new Splide(".splide", {
+        perPage: 7,
+        drag: "free",
+        type: "loop",
+        snap: true,
+        gap: "0.9rem",
+        padding: "3rem",
+        breakpoints: {
+          640: {
+            perPage: 2,
+            gap: ".7rem",
+          },
+          480: {
+            perPage: 1,
+            gap: ".7rem",
+          },
+        },
+      });
+
+      splide.mount();
+    </script>
+
+    <script>
+      var splide = new Splide("#kdrama", {
+        perPage: 7,
+        drag: "free",
+        type: "loop",
+        snap: true,
+        gap: "1.5rem",
+        padding: "3rem",
+        breakpoints: {
+          640: {
+            perPage: 2,
+            gap: ".7rem",
+          },
+          480: {
+            perPage: 1,
+            gap: ".7rem",
+          },
+        },
+      });
+
+      splide.mount();
+    </script>
+
+    <script>
+      function closepreloader() {
+        document.getElementById("preloader").style.display = "none";
+      }
+      window.addEventListener("load", function () {
+        setTimeout(closepreloader, 2000);
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
